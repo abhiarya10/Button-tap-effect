@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.app-main-body{
+    padding-top: 100px;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(175, 192, 155);
+}
+.text{
+    background-color: rgb(47, 77, 77);
+    color: whitesmoke;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 2px 10px black;
+}
+.text:hover{
+    cursor: pointer;
+}
+.motion-div{
+    border-style: none;
+    background-color: transparent;
+}
